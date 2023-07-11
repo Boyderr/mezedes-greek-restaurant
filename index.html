@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mezedes Greek Restaurant</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/zmt8lby.css">
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/tablet.css">
+        <link rel="stylesheet" href="styles/desktop.css">
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="navbar__logo">
+                <img src="images/mezedes-logo.svg" alt="Mezedes Greek Restaurant">
+            </div>
+            <nav class="navbar__menu">
+                <div class="navbar__menu-close js-menu-close">
+                    <img src="images/menu-close.svg" alt="Close navigation menu">
+                </div>
+                <ul class="navbar__menu-list">
+                    <li><a class="a-mobile" href="#menu">Menu</a></li>
+                    <li><a class="a-mobile" href="#gallery">Gallery</a></li>
+                    <li><a class="a-mobile" href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="navbar__menu-open js-menu-open">
+                <img src="images/menu-open.svg" alt="Open navigation Menu">
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="hero__container">
+                    <picture>
+                        <source media="(min-width: 834px)" srcset="images/banner-lrg.jpg">
+                        <img class="hero__img" src="images/banner-sml.jpg" alt="Greek food and wine">
+                    </picture>
+                    <div class="hero__overlay">
+                        <h1>INDULGE</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="menu wrapper" id="menu">
+                <div class="heading__container">
+                    <h2>MENU</h2>
+                    <div class="heading__line"></div>
+                </div>
+                <div class="menu__item">
+                    <h3>MOUSSAKA <span class="price">$25</span></h3>
+                </div>
+                <div class="menu__item-description">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="line"></div>
+                <div class="menu__item">
+                    <h3>GRILLED KEFTEDES <span class="price">$20</span></h3>
+                </div>
+                <div class="menu__item-description">
+                    <p>Ornare eu consequat quisque potenti facilisi ut diam.</p>
+                </div>
+                <div class="line"></div>
+                <div class="menu__item">
+                    <h3>LAMB YOUVETSI <span class="price">$29</span></h3>
+                </div>
+                <div class="menu__item-description">
+                    <p>Augue blandit consectetur lacinia viverra libero praesent nibh odio velit.</p>
+                </div>
+                <div class="line"></div>
+                <div class="menu__item">
+                    <h3>MOSCHARI YOUVETSI <span class="price">$32</span></h3>
+                </div>
+                <div class="menu__item-description">
+                    <p>Sollicitudin facilisis iaculis amet vestibulum volutpat ut posuere cras dignissim.</p>
+                </div>
+                <div class="line"></div>
+                <div class="menu__item">
+                    <h3>SOUVLAKI <span class="price">$22</span></h3>
+                </div>
+                <div class="menu__item-description">
+                    <p>Enim vitae lectus fames quam orci non. Nunc volutpat aliquet congue orci.</p>
+                </div>
+                <div class="line"></div>
+                <div class="menu__item">
+                    <h3>GARIDA SAGANAKI <span class="price">$25</span></h3>
+                </div>
+                <div class="menu__item-description">
+                    <p>Malesuada dignissim lacus lacinia tempor. Pellentesque varius ullamcorper viverra.</p>
+                </div>
+            </section>
+            <section class="gallery wrapper" id="gallery">
+                <div class="heading__container">
+                    <h2>GALLERY</h2>
+                    <div class="heading__line"></div>
+                </div>
+                <div class="gallery__container">
+                    <div>
+                        <img src="images/gallery1-sml.jpg" alt="Souvlaki">
+                    </div>
+                    <div>
+                        <img src="images/gallery2-sml.jpg" alt="Greek salad">
+                    </div>
+                    <div>
+                        <img src="images/gallery3-sml.jpg" alt="Tapas">
+                    </div>
+                    <div>
+                        <img src="images/gallery4-sml.jpg" alt="Greek salad">
+                    </div>
+                </div>
+            </section>
+            <section class="contact wrapper" id="contact">
+                <div class="heading__container">
+                    <h2 class="heading__text">CONTACT US</h2>
+                    <div class="heading__line"></div>
+                </div>
+                <div class="contact__info">
+                    <div class="contact__text">
+                        <div class="contact__item">
+                            <p>2679 Seymour St</p>
+                            <p>Vancouver, BC V3R 1C9</p>
+                        </div>
+                        <div class="contact__item">
+                            <p>604-729-8888</p>
+                        </div>
+                        <div class="contact__item">
+                            <p>info@mezedes.ca</p>
+                        </div>
+                        <div class="contact__item">
+                            <p>Open Monday - Sunday</p>
+                            <p>11am - Late</p>
+                        </div>
+                    </div>
+                    <div class="contact__map">
+                        <div class="contact__map-container">
+                            <img src="images/map-sml.jpg" alt="Google maps location">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="contact__text">
+                <div class="footer__contact-item">
+                    <p class="p-foot">2679 Seymour St</p>
+                    <p class="p-foot">Vancouver, BC V3R 1C9</p>
+                </div>
+                <div class="footer__contact-item">
+                    <p class="p-foot">604-729-8888</p>
+                </div>
+                <div class="footer__contact-item">
+                    <p class="p-foot">info@mezedes.ca</p>
+                </div>
+                <div class="footer__contact-item">
+                    <p class="p-foot">Open Monday - Sunday</p>
+                    <p class="p-foot">11am - Late</p>
+                </div>
+            </div>
+            <div class="mezedes">
+                <div class="mezedes__footer-logo">
+                    <img src="images/mezedes-logo.svg" alt="Mezedes Greek Restaurant">
+                </div>
+                <div class="mezedes__social">
+                    <a href="#">
+                        <img src="images/facebook.svg" alt="Facebook Link">
+                    </a>
+                    <a href="#">
+                        <img src="images/instagram.svg" alt="Instagram Link">
+                    </a>
+                </div>
+                <div class="copyright">
+                    <p class="p-foot">2022 &copy; Mezedes Greek Restaurant. All Rights Reserved</p>
+                </div>
+            </div>
+            <nav class="footer-nav">
+                <ul class="footer-nav__menu-list">
+                    <li><a class="footer-nav__menu-item" href="#menu">Menu</a></li>
+                    <li><a class="footer-nav__menu-item" href="#gallery">Gallery</a></li>
+                    <li><a class="footer-nav__menu-item" href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </footer>
+        <script src="scripts/main.js"></script> 
+    </body>
+</html>

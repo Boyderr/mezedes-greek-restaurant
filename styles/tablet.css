@@ -1,0 +1,155 @@
+@media (min-width: 500px) {
+    .gallery__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media (min-width: 834px) {
+
+    /* Global -------------------------------- */
+
+    .wrapper {
+        padding: 0 12%;
+    }
+
+    /* Navigation ----------------------------- */
+
+    .navbar {
+        padding: 1.5rem 3rem;
+    }
+
+    .navbar__logo img {
+        width: 30vw;
+        max-width: 9.5625rem;
+    }
+
+    .navbar__menu {
+        width: 45vw;
+    }
+
+    .navbar__menu-open img {
+        width: 2.25rem;
+    }
+
+    .navbar__menu-close {
+        right: 3rem;
+        top: 2rem;
+    }
+
+    .navbar__menu-close img {
+        width: 2rem;
+    }
+
+    .navbar__menu-list {
+        gap: 6.5rem;
+        margin-top: 9.5rem;
+    }
+
+
+    /* Menu ----------------------------- */
+
+    .menu {
+        margin-top: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .heading__container {
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .heading__line,
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: var(--dark-text);
+    }
+
+    .menu__item {
+        margin-top: 2rem;
+    }
+
+    .price {
+        margin-left: 1rem;
+    }
+
+    .menu__item-description {
+        margin-top: 1.2rem;
+    }
+
+    .line {
+        margin-top: 2rem;
+    }
+
+
+    /* Gallery ----------------------------- */
+
+    .gallery {
+        padding-top: 2.5rem;
+        padding-bottom: 4rem;
+    }
+
+    .gallery__container img {
+        width: 100%;
+    }
+
+
+    /* Contact ----------------------------- */
+
+    .contact {
+        margin-top: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .contact__info {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .contact__item {
+        margin-bottom: 2rem;
+        white-space: nowrap;
+    }
+
+    .contact__map img {
+        width: 100%;
+    }
+
+
+    /* Footer ----------------------------- */
+
+    .footer {
+        padding: 1.5rem 3rem;
+    }
+
+    .footer__contact-item:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+
+    .mezedes {
+        gap: 1rem;
+        margin-top: 1rem;
+        width: 30vw;
+    }
+
+    .mezedes__social {
+        gap: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .mezedes__social img {
+        width: 2rem;
+    }
+
+    .footer-nav__menu-item {
+        font-size: 1.4375rem;
+    }
+
+    .footer-nav__menu-list li:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+
+}
