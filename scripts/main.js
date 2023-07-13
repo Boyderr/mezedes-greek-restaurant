@@ -1,4 +1,4 @@
-// Get the necessary elements
+// Select navbar elements
 const menuOpenIcon = document.querySelector('.navbar__menu-open');
 const menuCloseIcon = document.querySelector('.navbar__menu-close');
 const menu = document.querySelector('.navbar__menu');
